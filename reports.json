@@ -2,14 +2,16 @@
   "1": "Incident Report #1:\nSystem health check passed. No anomalies detected in the past 24 hours.",
   "2": "Incident Report #2:\nMultiple failed login attempts detected on Admin Panel (IP: 192.168.10.42).\nRecommendation: Lock account after 3 failed attempts.",
   "3": "Incident Report #3:\nUnauthorized SSH key detected on production server.\nRemoved unknown key fingerprint: SHA256:9gqMxyz9uYxKxyzNJJvNabcd== \nAudit initiated.",
-  "4": "Incident Report #4:\nUser \"jdoe\" reported a slow system response.\nRoot cause: Excessive CPU usage from video playback during work hours.\nFlagged as non-critical.",
-  "5": "Incident Report #5:\nReport ID mismatched during sync. Please contact dev-team@example.com.",
-  "6": "Incident Report #6:\nAudit logs showed a request to /audit from unauthorized IP. Headers were retained.\nToken mismatch suspected. Recommend reviewing logs for X-Reviewer-Token anomalies.",
+  "4": "Incident Report #4:\nUser \"joleen\" reported a slow system response.\nRoot cause: Excessive CPU usage from excessive video playback during work hours.\nFlagged as non-critical.",
+  "5": "Incident Report #5:\nReport ID mismatched during sync. Please contact support-desk@comssa.org.au.",
+  "6": "Incident Report #6:\nAudit logs showed a request to /matches from unauthorized IP. Query parameters were retained.\nToken mismatch suspected. Recommend reviewing logs for ?token= anomalies.",
   "7": "Incident Report #7:\nA regex pattern caused a service slowdown.\nPattern submitted: (?=f.la)g\nNote: Log parser incorrectly flagged this as an error.",
   "8": "Incident Report #8:\nRequest flood detected from IP: 203.0.113.99\nUser-Agent: sqlmap/1.4.6.10#dev\nMitigation: Block IP via WAF.",
   "9": "Incident Report #9:\nQuery string anomaly on /view_report:\n?id=' OR '1'='1'\nEntry logged in audit trail.",
-  "10": "Incident Report #10:\nSuspicious access to `/audit` with token: REVIEWER_SECRET_123\nAccess denied. Logged for review.",
-  "11": "Incident Report #11:\nAudit logs may leak headers. Confirmed via penetration test conducted by Red Team.\nFlag exposure possible via header replay attack.",
-  "12": "Incident Report #12:\nCoffee machine requested IP lease from DHCP server. Denied.\nMachine: \"MrBean\" (MAC: DE:AD:BE:AN:01:23)",
-  "13": "Incident Report #13:\nUser mistyped `rm -rf /home/admin` during onboarding demo.\nSystem backup restored successfully."
+  "10": "Incident Report #10:\nSuspicious access to `/matches` with token: ADMIN_TOKEN\nAccess denied. Logged for review.",
+  "11": "Incident Report #11:\nQuerying number of matches may information. Confirmed via penetration test conducted by Red Team.",
+  "12": "Incident Report #12:\nCoffee machine requested IP lease from DHCP server. Denied.\nMachine: \"MrBean\" (MAC: DE:AD:BE:A2:01:23)",
+  "13": "Incident Report #13:\nUser mistyped `rm -rf /home/admin` during onboarding demo.\nSystem backup restored successfully.",
+  "14": "Incident Report #14:\nUser \"staff02\" wanted a more powerful way to search secure files to get the number of files.\nResolution: Gave access with our matches endpoint.",
+  "15": "Incident Report #15:\nOur system was targeted by a DDoS attack.\nMitigation: Rate limiting and IP blacklisting implemented.\nRecommendation: Review firewall rules and increase bandwidth."
 }
